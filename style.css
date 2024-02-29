@@ -1,0 +1,154 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px; 
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+  
+}
+
+
+nav {
+  display: inline-block;
+  margin-left: 40 px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+h1 {
+  margin: 0; 
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 40px;
+  margin-left: auto;
+  display: inline-block;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+  margin-left: 0%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.main-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+} /*allowed image and about section to shift */
+
+.about-text {
+  flex-grow: 50;
+  text-align: left;
+}
+
+#portfolio {
+  text-align: center; 
+}
+
+/* Projects */
+#portfolio section {
+  display: inline-block;
+  width: calc(33.33% - 40px); /* Adjusted width and spacing needed */
+  margin: 0 10px; 
+  vertical-align: top; 
+}
+
+/* Project Images */
+#portfolio img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Project Descriptions */
+#portfolio p {
+  font-size: 14px;
+}
